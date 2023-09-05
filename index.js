@@ -21,7 +21,7 @@ function enviarDatos() {
     })
     .then(response => response.json())
     .then(data => {
-        console.log("Respuesta del servidor:", data);
+        console.log("Respuesta:", data);
         
     })
     .catch(error => {
